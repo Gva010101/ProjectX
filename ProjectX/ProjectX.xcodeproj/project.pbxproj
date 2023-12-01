@@ -11,6 +11,10 @@
 		819DD6EC2B1A3D44006BF512 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819DD6EB2B1A3D44006BF512 /* ContentView.swift */; };
 		819DD6EE2B1A3D46006BF512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819DD6ED2B1A3D46006BF512 /* Assets.xcassets */; };
 		819DD6F12B1A3D46006BF512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819DD6F02B1A3D46006BF512 /* Preview Assets.xcassets */; };
+		81C1CFA72B1A4DA600AD08B8 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C1CFA62B1A4DA600AD08B8 /* FileManager+Extension.swift */; };
+		81C1CFAE2B1A4DF900AD08B8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C1CFAC2B1A4DF900AD08B8 /* ImagePicker.swift */; };
+		81C1CFAF2B1A4DF900AD08B8 /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C1CFAD2B1A4DF900AD08B8 /* ZoomableScrollView.swift */; };
+		81C1CFB12B1A4E4500AD08B8 /* tabViewStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C1CFB02B1A4E4500AD08B8 /* tabViewStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		819DD6EB2B1A3D44006BF512 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		819DD6ED2B1A3D46006BF512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		819DD6F02B1A3D46006BF512 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81C1CFA62B1A4DA600AD08B8 /* FileManager+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
+		81C1CFAC2B1A4DF900AD08B8 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		81C1CFAD2B1A4DF900AD08B8 /* ZoomableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableScrollView.swift; sourceTree = "<group>"; };
+		81C1CFB02B1A4E4500AD08B8 /* tabViewStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabViewStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,9 @@
 			children = (
 				819DD6E92B1A3D44006BF512 /* ProjectXApp.swift */,
 				819DD6EB2B1A3D44006BF512 /* ContentView.swift */,
+				81C1CFB02B1A4E4500AD08B8 /* tabViewStruct.swift */,
+				81C1CFA52B1A4DA600AD08B8 /* Extensions */,
+				81C1CFAB2B1A4DF900AD08B8 /* UIViewRepresentables */,
 				819DD6ED2B1A3D46006BF512 /* Assets.xcassets */,
 				819DD6EF2B1A3D46006BF512 /* Preview Content */,
 			);
@@ -65,6 +76,23 @@
 				819DD6F02B1A3D46006BF512 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81C1CFA52B1A4DA600AD08B8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				81C1CFA62B1A4DA600AD08B8 /* FileManager+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		81C1CFAB2B1A4DF900AD08B8 /* UIViewRepresentables */ = {
+			isa = PBXGroup;
+			children = (
+				81C1CFAC2B1A4DF900AD08B8 /* ImagePicker.swift */,
+				81C1CFAD2B1A4DF900AD08B8 /* ZoomableScrollView.swift */,
+			);
+			path = UIViewRepresentables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C1CFAF2B1A4DF900AD08B8 /* ZoomableScrollView.swift in Sources */,
+				81C1CFB12B1A4E4500AD08B8 /* tabViewStruct.swift in Sources */,
 				819DD6EC2B1A3D44006BF512 /* ContentView.swift in Sources */,
+				81C1CFAE2B1A4DF900AD08B8 /* ImagePicker.swift in Sources */,
+				81C1CFA72B1A4DA600AD08B8 /* FileManager+Extension.swift in Sources */,
 				819DD6EA2B1A3D44006BF512 /* ProjectXApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
