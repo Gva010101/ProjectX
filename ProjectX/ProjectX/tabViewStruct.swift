@@ -1,26 +1,28 @@
+////
+////  tabViewStruct.swift
+////  iDocMe
+////
+////  Created by Vladimir Grishchenkov on 18.11.2023.
+////
 //
-//  tabViewStruct.swift
-//  iDocMe
-//
-//  Created by Vladimir Grishchenkov on 18.11.2023.
-//
-
 import Foundation
 import SwiftUI
 
 struct FirstTabView: View {
+       @EnvironmentObject var vm: ViewModel
+
     var body: some View {
-//        NavigationView {
-//            MyButtonView(text: "Сделай фото", imageName: "scanner", action: {
-//                print("Кнопка была нажата!")
-//            })
-//
-//        }
-        Text("!")
+        if let image = vm.image {
+                        Image(uiImage: image)
+                    } else {
+                        Image(systemName: "photo.fill")
+                    }
     }
 }
 
 struct SecondTabView: View {
+    @EnvironmentObject var vm: ViewModel
+
     var body: some View {
         NavigationView {
             Text("Вторая секция")
@@ -30,6 +32,8 @@ struct SecondTabView: View {
 }
 
 struct MainTabView: View {
+    @EnvironmentObject var vm: ViewModel
+
     var body: some View {
         TabView {
             FirstTabView()
@@ -48,5 +52,7 @@ struct MainTabView: View {
 struct MainTabView_Previews: PreviewProvider {
     static var previews: some View {
         MainTabView()
+            .environmentObject(ViewModel())
+
     }
 }

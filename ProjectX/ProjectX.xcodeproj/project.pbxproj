@@ -15,6 +15,7 @@
 		81C1CFAE2B1A4DF900AD08B8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C1CFAC2B1A4DF900AD08B8 /* ImagePicker.swift */; };
 		81C1CFAF2B1A4DF900AD08B8 /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C1CFAD2B1A4DF900AD08B8 /* ZoomableScrollView.swift */; };
 		81C1CFB12B1A4E4500AD08B8 /* tabViewStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C1CFB02B1A4E4500AD08B8 /* tabViewStruct.swift */; };
+		81C1CFBB2B1A562400AD08B8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C1CFBA2B1A562400AD08B8 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		81C1CFAC2B1A4DF900AD08B8 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		81C1CFAD2B1A4DF900AD08B8 /* ZoomableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableScrollView.swift; sourceTree = "<group>"; };
 		81C1CFB02B1A4E4500AD08B8 /* tabViewStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabViewStruct.swift; sourceTree = "<group>"; };
+		81C1CFBA2B1A562400AD08B8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				819DD6E92B1A3D44006BF512 /* ProjectXApp.swift */,
 				819DD6EB2B1A3D44006BF512 /* ContentView.swift */,
 				81C1CFB02B1A4E4500AD08B8 /* tabViewStruct.swift */,
+				81C1CFB72B1A546B00AD08B8 /* ViewModel */,
 				81C1CFA52B1A4DA600AD08B8 /* Extensions */,
 				81C1CFAB2B1A4DF900AD08B8 /* UIViewRepresentables */,
 				819DD6ED2B1A3D46006BF512 /* Assets.xcassets */,
@@ -93,6 +96,14 @@
 				81C1CFAD2B1A4DF900AD08B8 /* ZoomableScrollView.swift */,
 			);
 			path = UIViewRepresentables;
+			sourceTree = "<group>";
+		};
+		81C1CFB72B1A546B00AD08B8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				81C1CFBA2B1A562400AD08B8 /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +182,7 @@
 				81C1CFAE2B1A4DF900AD08B8 /* ImagePicker.swift in Sources */,
 				81C1CFA72B1A4DA600AD08B8 /* FileManager+Extension.swift in Sources */,
 				819DD6EA2B1A3D44006BF512 /* ProjectXApp.swift in Sources */,
+				81C1CFBB2B1A562400AD08B8 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
